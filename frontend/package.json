@@ -1,0 +1,23 @@
+{
+  "name": "shabab-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "axios": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "tailwindcss": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "vite": "*"
+  }
+}

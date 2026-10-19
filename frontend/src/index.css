@@ -1,0 +1,303 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #efeae2;
+  --color-paper: #f7f4ef;
+  --color-ink: #1c1916;
+  --color-muted: #6f675e;
+  --color-line: rgb(28 25 22 / 14%);
+  --color-accent: #b23a2a;
+  --color-good: #1f4d3a;
+  --color-cream: #f6f3ee;
+  --font-serif: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Figtree", "Segoe UI", sans-serif;
+  --shadow-soft: 0 24px 60px rgb(28 25 22 / 12%);
+}
+
+@layer base {
+  html { @apply scroll-smooth; }
+  body { @apply m-0 bg-bg text-ink font-sans text-base leading-normal; }
+  img { @apply max-w-full block; }
+  a { @apply text-inherit no-underline; }
+  button, input, select, textarea { @apply font-[inherit] text-inherit; }
+  h1, h2, h3, h4 { @apply font-serif font-[560] tracking-[-0.03em] m-0; }
+  p { @apply m-0; }
+  :focus-visible { @apply outline-2 outline-accent outline-offset-2; }
+}
+
+.wrap { @apply w-[min(1200px,calc(100%-40px))] mx-auto; }
+.muted { @apply text-muted; }
+.tiny { @apply text-xs; }
+.kicker { @apply mb-2.5 text-xs tracking-[0.16em] uppercase text-muted; }
+.lede { @apply text-lg max-w-[46ch] text-[#3d3832]; }
+
+.btn, .btn-line, .btn-accent {
+  @apply inline-flex items-center justify-center min-h-[46px] px-[18px] border border-ink bg-ink text-paper cursor-pointer text-center;
+}
+.btn-line { @apply bg-transparent text-ink; }
+.btn-accent { @apply bg-accent border-accent text-white; }
+.btn:disabled { @apply opacity-45 cursor-not-allowed; }
+.btn-row { @apply flex flex-wrap gap-2.5 mt-[22px]; }
+
+.field { @apply flex flex-col gap-1.5; }
+.field span, .label { @apply text-xs tracking-[0.08em] uppercase text-muted; }
+input[type="checkbox"] { @apply w-auto; }
+.shop-head h1, .cart h1, .checkout h1, .stack h1 { @apply text-[clamp(36px,5vw,56px)]; }
+.field input, .field select, .field textarea, .search input, .inline-input {
+  @apply w-full bg-white border border-line px-3.5 py-3 outline-none;
+}
+.field textarea { @apply min-h-[110px] resize-y; }
+.field input:focus, .field select:focus, .field textarea:focus, .search input:focus { @apply border-ink; }
+.error { @apply text-accent mt-2; }
+.note { @apply text-muted text-sm; }
+.center-note, .empty { @apply px-4 py-16 text-center; }
+.empty h2 { @apply mb-2; }
+
+.topbar { @apply bg-ink text-cream text-[13px]; }
+.topbar-inner { @apply flex justify-between gap-4 min-h-9 items-center; }
+.site-header { @apply sticky top-0 z-30 bg-paper/92 backdrop-blur-lg border-b border-line; }
+.header-main { @apply relative; }
+.header-brand { @apply flex justify-center pt-2.5 pb-0.5; }
+.header-row { @apply min-h-0 py-3 grid grid-cols-[auto_minmax(140px,1fr)_auto] gap-[18px] items-center; }
+.logo { @apply font-serif text-2xl tracking-[0.08em] font-[560] whitespace-nowrap; }
+.header-row .logo { @apply inline-block my-2 mx-1.5 p-2; }
+.brand-logo { @apply block w-[200px] h-auto rounded-2xl; }
+.brand-logo-header { @apply block w-[168px] h-auto rounded-2xl; }
+.brand-logo-full { @apply block w-[168px] max-w-full h-auto rounded-2xl; }
+.brand-logo-side { @apply block w-full max-w-[150px] h-auto mb-3 rounded-2xl; }
+.nav { @apply flex gap-4 items-center flex-nowrap; }
+.nav-item { @apply relative; }
+.nav-item > a { @apply text-[22px] py-2 inline-block; }
+.nav-item > a.active { box-shadow: inset 0 -1px 0 var(--color-ink); }
+.mega {
+  @apply hidden absolute top-full left-0 min-w-60 p-2.5 bg-paper border border-line shadow-soft z-[5];
+}
+.nav-item:hover .mega, .nav-item:focus-within .mega { @apply grid; }
+.mega a { @apply flex justify-between gap-4 px-2.5 py-2; }
+.mega a:hover { @apply bg-ink/4; }
+.mega small { @apply text-muted; }
+.search { @apply flex items-center gap-2 border-b border-line; }
+.search input { @apply border-0 bg-transparent py-2 px-0; }
+.search svg, .icon-btn svg { @apply w-5 h-5 fill-none stroke-current stroke-[1.6]; }
+.header-icons { @apply flex items-center gap-1.5; }
+.header-icons .icon-btn { @apply w-11 h-11 rounded-full; }
+.header-icons .icon-btn svg { @apply w-7 h-7 stroke-[1.7]; }
+.header-icons .icon-wish,
+.header-icons .icon-cart { @apply bg-transparent text-ink; }
+.header-icons .icon-wish:hover,
+.header-icons .icon-cart:hover { @apply bg-ink/6; }
+.header-icons .icon-cart .cart-basket,
+.header-icons .icon-cart .cart-handle,
+.header-icons .icon-cart .cart-wheel { fill: none; stroke: currentColor; }
+.count { @apply absolute top-1 right-1 min-w-4 h-4 rounded-full bg-ink text-cream text-[10px] grid place-items-center px-1; }
+.admin-return { @apply inline-flex items-center h-9 px-3 border border-ink text-[12px] tracking-[0.12em] uppercase whitespace-nowrap; }
+.cart-head { @apply flex items-center gap-3.5; }
+.cart-mark { @apply grid place-items-center w-14 h-14 rounded-full border border-line bg-paper text-ink shrink-0; }
+.cart-mark svg { @apply w-8 h-8 stroke-[1.6]; }
+.cart-mark .cart-basket,
+.cart-mark .cart-handle,
+.cart-mark .cart-wheel { fill: none; stroke: currentColor; }
+.icon-btn { @apply relative w-10 h-10 grid place-items-center bg-transparent border-0 cursor-pointer text-inherit; }
+.menu-btn { @apply hidden; }
+
+.hero { @apply grid grid-cols-[1.05fr_0.95fr] gap-9 items-center pt-[42px] pb-5; }
+.hero h1 { @apply text-[clamp(48px,6vw,84px)] leading-[0.92] max-w-[10ch]; }
+.hero-media { @apply relative; }
+.hero-media img { @apply w-full h-[min(72vh,680px)] object-cover bg-[#e4dcd2]; }
+.hero-card { @apply absolute left-4 bottom-4 bg-paper px-4 py-3.5 min-w-40; }
+.hero-card strong { @apply block font-serif text-[28px]; }
+.section { @apply pt-7 pb-2.5; }
+.section-head { @apply flex justify-between items-end gap-4 mb-[18px]; }
+.section-head h2 { @apply text-[clamp(32px,4vw,48px)]; }
+.tiles { @apply grid grid-cols-4 gap-3; }
+.tile { @apply relative block aspect-[3/4] overflow-hidden bg-[#e4dcd2] text-white; }
+.tile img { @apply w-full h-full object-cover transition-transform duration-700 ease-out; }
+.tile:hover img { @apply scale-[1.04]; }
+.tile div { @apply absolute inset-x-0 bottom-0 p-[18px] bg-linear-to-t from-black/55 to-transparent; }
+.tile strong { @apply block font-serif text-[32px] font-[560]; }
+.tile span { @apply text-sm; }
+.products { @apply grid grid-cols-4 gap-x-4 gap-y-[26px]; }
+.card { @apply relative; }
+.card-media { @apply block aspect-[3/4] overflow-hidden bg-[#e4dcd2]; }
+.card-media img { @apply w-full h-full object-cover transition-transform duration-700 ease-out; }
+.card:hover .card-media img { @apply scale-[1.04]; }
+.badge, .sold { @apply absolute top-2.5 left-2.5 bg-accent text-white text-xs tracking-[0.04em] px-2 py-1; }
+.sold { @apply bg-ink; }
+.wish { @apply absolute top-2 right-2 size-9 border-0 rounded-full bg-paper/92 grid place-items-center cursor-pointer; }
+.wish svg { @apply size-[18px] fill-none stroke-current stroke-[1.6]; }
+.wish.on { @apply text-accent; }
+.card-body { @apply pt-2.5; }
+.brand { @apply text-xs tracking-[0.08em] uppercase text-muted; }
+.card h3 { @apply font-sans text-[15px] font-semibold tracking-normal my-0.5 mb-1.5; }
+.price-row { @apply flex items-center gap-2 flex-wrap; }
+.price-row s, s.mrp { @apply text-muted text-[13px]; }
+.stars { @apply text-accent tracking-[1px] text-[13px]; }
+.stars .dim { @apply text-[#d9d0c6]; }
+.promo { @apply mx-auto my-9 grid grid-cols-[1.1fr_0.9fr] bg-ink text-cream; }
+.promo img { @apply w-full h-full min-h-80 object-cover; }
+.promo div { @apply px-10 py-12 flex flex-col justify-center; }
+.promo h2 { @apply text-[clamp(36px,5vw,60px)] text-white; }
+.promo .btn { @apply bg-cream text-ink border-cream mt-[18px] self-start; }
+.trust { @apply grid grid-cols-4 gap-[18px] pt-2.5 pb-12; }
+.trust article { @apply border-t border-line pt-3.5; }
+.trust h3 { @apply font-sans text-base tracking-normal mb-1.5; }
+
+.shop { @apply grid grid-cols-[230px_1fr] gap-7 py-7 pb-14; }
+.shop-head { @apply flex justify-between gap-3 items-end mb-4; }
+.filters { @apply flex flex-col gap-[18px] self-start sticky top-[120px]; }
+.chips { @apply flex flex-col gap-1; }
+.chip { @apply text-left bg-transparent border-0 py-1.5 px-0 cursor-pointer text-muted; }
+.chip.on, .chip:hover { @apply text-ink; }
+.price-filter { @apply grid grid-cols-2 gap-2; }
+.pager { @apply flex gap-2 mt-[22px]; }
+.pager button { @apply min-w-9 h-9 border border-line bg-transparent cursor-pointer; }
+.pager button.on { @apply bg-ink text-white border-ink; }
+
+.pdp { @apply grid grid-cols-[1.05fr_0.95fr] gap-10 pt-7 pb-5; }
+.gallery img { @apply w-full aspect-[4/5] object-cover bg-[#e4dcd2]; }
+.thumbs { @apply flex gap-2 mt-2; }
+.thumbs button { @apply p-0 border border-transparent bg-transparent cursor-pointer; }
+.thumbs button.on { @apply border-ink; }
+.thumbs img { @apply w-[72px] h-[90px] object-cover; }
+.buybox h1 { @apply text-[clamp(36px,4vw,54px)] mt-1.5 mb-2.5; }
+.buy-price { @apply flex items-baseline gap-2.5 my-3; }
+.buy-price strong { @apply font-serif text-4xl; }
+.save { @apply text-good; }
+.low { @apply text-accent; }
+.choice { @apply flex flex-wrap gap-2 mt-2; }
+.choice button { @apply min-w-11 min-h-10 px-3 border border-line bg-white cursor-pointer; }
+.choice button.on { @apply border-ink bg-ink text-white; }
+.swatch { @apply size-7 rounded-full border border-black/20; }
+.choice button.color { @apply p-1 bg-white; }
+.choice button.color.on { @apply outline outline-1 outline-ink outline-offset-2 bg-white; }
+.qty { @apply inline-flex border border-line my-2 mb-4 bg-white; }
+.qty button { @apply w-9 h-10 border-0 bg-transparent cursor-pointer; }
+.qty span { @apply min-w-7 grid place-items-center; }
+.facts { @apply grid gap-1.5 mt-[18px] text-sm; }
+.reviews { @apply pb-12; }
+.review { @apply border-t border-line py-3.5; }
+.review form, .review-form { @apply grid gap-2.5 max-w-[520px] mt-3; }
+
+.cart, .checkout { @apply grid grid-cols-[1.3fr_0.7fr] gap-7 pt-7 pb-16; }
+.cart-row { @apply grid grid-cols-[92px_1fr_auto] gap-3.5 py-3.5 border-b border-line; }
+.cart-row img { @apply w-[92px] h-[116px] object-cover bg-[#e4dcd2]; }
+.linkish { @apply bg-transparent border-0 p-0 text-muted cursor-pointer underline; }
+.summary { @apply bg-paper border border-line p-[18px] h-fit sticky top-[120px]; }
+.totals { @apply grid gap-2 my-3.5; }
+.totals div, .total-line { @apply flex justify-between gap-3; }
+.totals .grand { @apply text-lg border-t border-line pt-2.5; }
+.coupon { @apply flex gap-2; }
+.coupon input { @apply flex-1; }
+.form-grid { @apply grid grid-cols-2 gap-3; }
+.form-grid .wide { @apply col-span-full; }
+.pay { @apply grid gap-2 my-2 mb-4; }
+.pay label { @apply flex gap-2.5 items-center bg-white border border-line p-3 cursor-pointer; }
+.pay label.on { @apply border-ink; }
+.auth-screen { @apply min-h-[68vh] grid place-items-center px-4 py-10; }
+.auth-card { @apply w-[min(440px,100%)] bg-paper border border-line p-7 grid gap-3; }
+.auth-card h1 { @apply text-[42px]; }
+.hint { @apply bg-accent/8 px-3 py-2.5 text-sm; }
+.stack { @apply py-7 pb-16 grid gap-3.5; }
+.order-card { @apply grid gap-1.5 bg-paper border border-line p-4; }
+.status { @apply capitalize; }
+
+.footer { @apply bg-ink text-cream pt-10 pb-[18px] mt-5; }
+.foot-brand { @apply flex items-center gap-8 pb-7 mb-7 border-b border-white/12; }
+.foot-logo { @apply block w-[150px] h-auto shrink-0 rounded-2xl; }
+.foot-brand p { @apply max-w-[36ch] text-cream/82 m-0; }
+.foot-grid { @apply grid grid-cols-3 gap-6; }
+.foot-grid h4 { @apply font-sans tracking-[0.08em] uppercase text-[13px] mb-2.5; }
+.foot-grid a, .foot-grid p { @apply block my-1.5 text-cream/82; }
+.foot-base { @apply mt-7 pt-3.5 border-t border-white/12 text-cream/60 text-[13px]; }
+.page { @apply py-9 pb-16 max-w-[760px]; }
+.page h1 { @apply text-[56px] mb-3; }
+.page p { @apply my-2.5; }
+
+.mini-cart {
+  @apply fixed right-4 bottom-4 z-40 w-[min(320px,calc(100vw-32px))] max-h-[min(70vh,520px)] flex flex-col bg-paper border border-line shadow-soft;
+}
+.mini-cart-head, .mini-cart-foot { @apply flex items-center justify-between gap-3 px-3.5 py-3; }
+.mini-cart-head { @apply border-b border-line; }
+.mini-cart-head button { @apply border-0 bg-transparent text-[22px] leading-none cursor-pointer; }
+.mini-cart-list { @apply overflow-auto; }
+.mini-cart-list article { @apply grid grid-cols-[52px_1fr_auto] gap-2.5 px-3.5 py-2.5 border-b border-line; }
+.mini-cart-list img { @apply w-[52px] h-[66px] object-cover bg-[#e4dcd2]; }
+.mini-cart-list p { @apply text-sm; }
+.mini-qty { @apply flex items-center gap-1.5 mt-1.5; }
+.mini-qty button { @apply border-0 bg-transparent cursor-pointer p-0; }
+.mini-cart-foot { @apply border-t border-line; }
+.mini-cart-foot strong { @apply block; }
+.mini-cart-foot .btn { @apply min-h-[38px] px-3; }
+.disclaimer { @apply fixed inset-0 z-[80] grid place-items-center bg-ink/55 px-4; }
+.disclaimer-card { @apply w-[min(460px,100%)] bg-paper border border-line p-7 shadow-soft grid gap-3; }
+.disclaimer-card h2 { @apply text-[34px]; }
+.disclaimer-card p { @apply text-[17px] leading-relaxed; }
+.disclaimer-card .btn { @apply mt-1 justify-self-start; }
+.toasts { @apply fixed right-4 top-24 grid gap-2 z-50; }
+.toast { @apply bg-ink text-white px-3.5 py-3 shadow-soft; }
+
+.admin-auth { @apply min-h-screen grid place-items-center bg-[#141210] p-6; }
+.admin-auth .auth-card { @apply bg-[#221f1c] text-cream border-0; }
+.admin-auth .kicker, .admin-auth .note, .admin-auth .label, .admin-auth .field span { @apply text-[#c8bfb4]; }
+.admin-auth input { @apply bg-[#141210] text-white border-[#3c362f]; }
+.admin-shell { @apply min-h-screen grid grid-cols-[230px_1fr] bg-bg; }
+.admin-side { @apply bg-ink text-cream px-4 py-[22px] flex flex-col gap-1.5; }
+.admin-side .logo { @apply text-white mb-[18px]; }
+.admin-side a, .admin-side button { @apply text-cream/78 text-left bg-transparent border-0 px-3 py-2.5 cursor-pointer font-[inherit]; }
+.admin-side a.active, .admin-side a:hover { @apply bg-white/6 text-white; }
+.admin-side .grow { @apply mt-auto; }
+.admin-main { @apply p-7; }
+.admin-top { @apply flex justify-between gap-3 items-end mb-[18px]; }
+.stats { @apply grid grid-cols-4 gap-3 mb-[18px]; }
+.stat { @apply bg-paper border border-line p-4; }
+.stat b { @apply block font-serif text-[32px] font-[560]; }
+.table-wrap { @apply overflow-auto bg-paper border border-line; }
+table { @apply w-full border-collapse; }
+th, td { @apply text-left px-3.5 py-3 border-b border-line text-sm align-middle; }
+th { @apply text-xs tracking-[0.06em] uppercase text-muted font-semibold; }
+.table-wrap a { @apply underline underline-offset-2; }
+.thumb { @apply w-11 h-14 object-cover bg-[#e4dcd2]; }
+.row-actions { @apply flex gap-2.5; }
+.price-lab { @apply grid grid-cols-3 gap-2.5 bg-white border border-line p-3.5 my-2; }
+.price-lab strong { @apply font-serif text-[28px]; }
+.price-lab s { @apply text-muted text-xl; }
+.color-picks { @apply flex flex-wrap gap-2; }
+.pick { @apply flex items-center gap-2 border border-line bg-white px-2.5 py-1.5 cursor-pointer; }
+.pick.on { @apply border-ink; }
+.dot { @apply size-3.5 rounded-full border border-black/20; }
+.previews { @apply flex gap-2 flex-wrap; }
+.previews figure { @apply m-0 relative; }
+.previews img { @apply w-[72px] h-[90px] object-cover; }
+.previews button { @apply absolute top-1 right-1 border-0 bg-white cursor-pointer; }
+
+@media (max-width: 980px) {
+  .header-row { @apply grid-cols-[auto_1fr_auto]; }
+  .menu-btn { @apply grid col-start-1 row-start-1; }
+  .header-icons { @apply col-start-3 row-start-1 justify-self-end; }
+  .search { @apply col-span-full row-start-2; }
+  .nav { @apply hidden absolute top-full inset-x-0 bg-paper border-b border-line px-5 pt-2.5 pb-[18px] flex-col items-stretch gap-1 max-h-[70vh] overflow-auto; }
+  .nav.open { @apply flex; }
+  .mega { @apply static grid shadow-none border-0 pt-0 pr-0 pb-2 pl-3 min-w-0; }
+  .hero, .promo, .pdp, .cart, .checkout, .shop { @apply grid-cols-1; }
+  .tiles, .products, .trust, .stats, .foot-grid { @apply grid-cols-2; }
+  .filters { @apply static; }
+  .hero-media img { @apply h-[460px]; }
+  .admin-shell { @apply grid-cols-1; }
+  .admin-side { @apply flex-row flex-wrap items-center; }
+  .admin-side .logo { @apply m-0 mr-2; }
+  .admin-side .grow { @apply mt-0; }
+}
+@media (max-width: 640px) {
+  .wrap { @apply w-[min(1200px,calc(100%-28px))]; }
+  .topbar-inner span:nth-child(2) { @apply hidden; }
+  .tiles, .products, .trust, .stats, .form-grid, .price-lab { @apply grid-cols-1; }
+  .products { @apply grid-cols-2; }
+  .foot-brand { @apply flex-col items-start gap-4; }
+  .foot-grid { @apply grid-cols-1; }
+  .brand-logo { @apply w-[132px]; }
+  .brand-logo-header { @apply w-[124px]; }
+  .hero h1, .page h1 { @apply text-[42px]; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { scroll-behavior: auto !important; transition: none !important; }
+}
