@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom';
-import api from '../api';
+import { catalogCategories } from '../catalog';
 import { useAuth } from '../context/AuthContext';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
@@ -11,16 +11,12 @@ export default function Layout() {
   const { user } = useAuth();
   const { count } = useCart();
   const { items: wishes } = useWishlist();
-  const [categories, setCategories] = useState([]);
+  const [categories] = useState(() => catalogCategories());
   const [term, setTerm] = useState('');
   const [open, setOpen] = useState(false);
   const [notice, setNotice] = useState(true);
   const navigate = useNavigate();
   const location = useLocation();
-
-  useEffect(() => {
-    api.get('/categories').then((res) => setCategories(res.data)).catch(() => {});
-  }, []);
 
   useEffect(() => {
     setOpen(false);

@@ -1,0 +1,280 @@
+[
+  {
+    "slug": "men",
+    "name": "Men",
+    "tagline": "Shirting, denim, shoes and watches",
+    "image": "https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      {
+        "slug": "t-shirts",
+        "name": "T-Shirts",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "shirts",
+        "name": "Shirts",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "jeans",
+        "name": "Jeans",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "trousers",
+        "name": "Trousers",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "jackets",
+        "name": "Jackets",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "ethnic-wear",
+        "name": "Ethnic Wear",
+        "custom": false,
+        "count": 0
+      },
+      {
+        "slug": "shoes",
+        "name": "Shoes",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "watches",
+        "name": "Watches",
+        "custom": false,
+        "count": 2
+      },
+      {
+        "slug": "bags",
+        "name": "Bags",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "sunglasses",
+        "name": "Sunglasses",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "belts",
+        "name": "Belts",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "wallets",
+        "name": "Wallets",
+        "custom": false,
+        "count": 1
+      }
+    ],
+    "count": 12
+  },
+  {
+    "slug": "women",
+    "name": "Women",
+    "tagline": "Dresses, kurtas, sarees and jewelry",
+    "image": "https://images.unsplash.com/photo-1487222477894-8943e31ef7b2?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      {
+        "slug": "dresses",
+        "name": "Dresses",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "tops",
+        "name": "Tops",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "kurtas",
+        "name": "Kurtas & Sets",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "sarees",
+        "name": "Sarees",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "jeans",
+        "name": "Jeans",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "skirts",
+        "name": "Skirts",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "shoes",
+        "name": "Shoes",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "heels",
+        "name": "Heels",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "watches",
+        "name": "Watches",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "jewelry",
+        "name": "Jewelry",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "handbags",
+        "name": "Handbags",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "sunglasses",
+        "name": "Sunglasses",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "handmade",
+        "name": "Handmade",
+        "custom": true,
+        "id": "6ac63bd9dbfad49af6ee843a",
+        "count": 1
+      }
+    ],
+    "count": 13
+  },
+  {
+    "slug": "kids",
+    "name": "Kids",
+    "tagline": "Everyday clothes, shoes and play",
+    "image": "https://images.unsplash.com/photo-1503919545889-aef636e10ad4?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      {
+        "slug": "boys-clothing",
+        "name": "Boys Clothing",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "girls-clothing",
+        "name": "Girls Clothing",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "infants",
+        "name": "Infants",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "shoes",
+        "name": "Shoes",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "toys",
+        "name": "Toys",
+        "custom": false,
+        "count": 3
+      },
+      {
+        "slug": "accessories",
+        "name": "Accessories",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "watches",
+        "name": "Watches",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "school-bags",
+        "name": "School Bags",
+        "custom": true,
+        "id": "6ac631482e00136964448951",
+        "count": 0
+      }
+    ],
+    "count": 9
+  },
+  {
+    "slug": "accessories",
+    "name": "Accessories",
+    "tagline": "Watches, bags, belts and sunglasses",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1400&q=80",
+    "subcategories": [
+      {
+        "slug": "watches",
+        "name": "Watches",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "bags",
+        "name": "Bags",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "wallets",
+        "name": "Wallets",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "belts",
+        "name": "Belts",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "sunglasses",
+        "name": "Sunglasses",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "jewelry",
+        "name": "Jewelry",
+        "custom": false,
+        "count": 1
+      },
+      {
+        "slug": "caps",
+        "name": "Caps",
+        "custom": false,
+        "count": 1
+      }
+    ],
+    "count": 7
+  }
+]

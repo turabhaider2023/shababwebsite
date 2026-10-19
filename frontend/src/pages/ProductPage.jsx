@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import api from '../api';
+import { findCatalogProduct } from '../catalog';
 import { money, onImgError } from '../utils';
 import { useCart } from '../context/CartContext';
 import { useWishlist } from '../context/WishlistContext';
@@ -30,6 +31,20 @@ export default function ProductPage() {
     let ignore = false;
     setMissing(false);
     setError('');
+    const local = findCatalogProduct(slug);
+    if (local) {
+      const next = local.product;
+      setProduct(next);
+      setRelated(local.related);
+      setImage(0);
+      setQty(1);
+      setSize(next.sizes?.length === 1 ? next.sizes[0] : '');
+      setColor(next.colors?.[0]?.name || '');
+      document.title = `${next.name} — ZAYVORN`;
+      return () => {
+        ignore = true;
+      };
+    }
     api
       .get(`/products/${slug}`)
       .then((res) => {

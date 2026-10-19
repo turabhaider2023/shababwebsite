@@ -1,0 +1,1842 @@
+[
+  {
+    "_id": "6ac88a958093d00e7ba16fcf",
+    "name": "Teddy Bear Manish",
+    "slug": "teddy-bear-manish",
+    "description": "A Teddy Bear for friend to your child ...",
+    "brand": "ZAYVORN",
+    "category": "kids",
+    "subcategory": "toys",
+    "material": "pure silicon",
+    "sku": "SHB27573157",
+    "images": [
+      "/uploads/1791527573153-824348915.jpg"
+    ],
+    "mrp": 700,
+    "discount": 14,
+    "price": 602,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac88a958093d00e7ba16fd0"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac88a958093d00e7ba16fd1"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac88a958093d00e7ba16fd2"
+      },
+      {
+        "name": "Rust",
+        "hex": "#8C3B2A",
+        "_id": "6ac88a958093d00e7ba16fd3"
+      }
+    ],
+    "stock": 9,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-09T06:32:53.159Z",
+    "updatedAt": "2026-10-09T08:42:19.806Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac79204077ea8910a35cf7e",
+    "name": "Turab watch",
+    "slug": "turab-watch",
+    "description": "A watch for rich class",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "watches",
+    "material": "",
+    "sku": "SHB63940674",
+    "images": [
+      "/uploads/1791463940669-262980986.jpg"
+    ],
+    "mrp": 25000,
+    "discount": 25,
+    "price": 18750,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac79204077ea8910a35cf7f"
+      },
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac79204077ea8910a35cf80"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac79204077ea8910a35cf81"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac79204077ea8910a35cf82"
+      }
+    ],
+    "stock": 10,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-08T12:52:20.679Z",
+    "updatedAt": "2026-10-08T12:52:20.679Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac7227533feabe7404906dc",
+    "name": "Manish khilona",
+    "slug": "manish-khilona",
+    "description": "It is a pure silver khilano for rich kids",
+    "brand": "ZAYVORN",
+    "category": "kids",
+    "subcategory": "toys",
+    "material": "pure silver",
+    "sku": "SHB35381733",
+    "images": [
+      "/uploads/1791435381729-940277217.png"
+    ],
+    "mrp": 6000,
+    "discount": 40,
+    "price": 3600,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac722bf33feabe74049090b"
+      }
+    ],
+    "stock": 10,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-08T04:56:21.735Z",
+    "updatedAt": "2026-10-08T04:57:35.538Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac63c55dbfad49af6ee84e5",
+    "name": "Handmade sareee",
+    "slug": "handmade-sareee",
+    "description": "A pure lenin hand made saree for beautiful women",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "handmade",
+    "material": "pure lenin",
+    "sku": "SHB76469000",
+    "images": [
+      "/uploads/1791376468990-712460124.jpg"
+    ],
+    "mrp": 1500,
+    "discount": 10,
+    "price": 1350,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac63c55dbfad49af6ee84e6"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac63c55dbfad49af6ee84e7"
+      },
+      {
+        "name": "Rust",
+        "hex": "#8C3B2A",
+        "_id": "6ac63c55dbfad49af6ee84e8"
+      }
+    ],
+    "stock": 10,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-07T12:34:29.003Z",
+    "updatedAt": "2026-10-07T12:34:29.003Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91dc8",
+    "name": "Airweave Cotton T-Shirt",
+    "slug": "airweave-cotton-t-shirt",
+    "description": "Mid-weight cotton jersey with a set-in sleeve and a ribbed neck that keeps its shape after washing.",
+    "brand": "ZAYVORN Studio",
+    "category": "men",
+    "subcategory": "t-shirts",
+    "material": "100% cotton jersey",
+    "sku": "SHB1001",
+    "images": [
+      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1499,
+    "discount": 20,
+    "price": 1199,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac628fc66c6019912b91dc9"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91dca"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac628fc66c6019912b91dcb"
+      }
+    ],
+    "stock": 38,
+    "rating": 4.5,
+    "numReviews": 2,
+    "featured": true,
+    "createdAt": "2026-10-07T11:11:56.742Z",
+    "updatedAt": "2026-10-07T12:07:18.240Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91dce",
+    "name": "Oxford Cotton Shirt",
+    "slug": "oxford-cotton-shirt",
+    "description": "A clean button-down in oxford cloth, cut with room through the shoulder so it works tucked or open over a tee.",
+    "brand": "ZAYVORN Studio",
+    "category": "men",
+    "subcategory": "shirts",
+    "material": "Oxford cotton",
+    "sku": "SHB1002",
+    "images": [
+      "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 2499,
+    "discount": 30,
+    "price": 1749,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac628fc66c6019912b91dcf"
+      },
+      {
+        "name": "Sky",
+        "hex": "#8FB4C9",
+        "_id": "6ac628fc66c6019912b91dd0"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91dd1"
+      }
+    ],
+    "stock": 28,
+    "rating": 5,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-07T06:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:32.970Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91dd3",
+    "name": "Slim Indigo Jeans",
+    "slug": "slim-indigo-jeans",
+    "description": "A slim jean with a touch of stretch, a mid rise, and a dark indigo wash that stays deep after a few wears.",
+    "brand": "ZAYVORN Denim",
+    "category": "men",
+    "subcategory": "jeans",
+    "material": "Stretch denim",
+    "sku": "SHB1003",
+    "images": [
+      "https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 3299,
+    "discount": 25,
+    "price": 2474,
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "colors": [
+      {
+        "name": "Indigo",
+        "hex": "#2C3E6B",
+        "_id": "6ac628fc66c6019912b91dd4"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91dd5"
+      }
+    ],
+    "stock": 24,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": true,
+    "createdAt": "2026-10-07T01:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:32.975Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91dd6",
+    "name": "Pleated Wool Trousers",
+    "slug": "pleated-wool-trousers",
+    "description": "Single-pleat trousers with a straight leg and a soft wool blend that holds a crease without feeling stiff.",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "trousers",
+    "material": "Wool blend",
+    "sku": "SHB1004",
+    "images": [
+      "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 3999,
+    "discount": 15,
+    "price": 3399,
+    "sizes": [
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91dd7"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91dd8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91dd9"
+      }
+    ],
+    "stock": 16,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-06T20:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:32.978Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91dda",
+    "name": "Suede Overshirt Jacket",
+    "slug": "suede-overshirt-jacket",
+    "description": "An overshirt jacket with a suede-like hand, two chest pockets, and enough weight for air-conditioned rooms and mild evenings.",
+    "brand": "ZAYVORN Studio",
+    "category": "men",
+    "subcategory": "jackets",
+    "material": "Suede touch cotton",
+    "sku": "SHB1005",
+    "images": [
+      "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 6999,
+    "discount": 35,
+    "price": 4549,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91ddb"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91ddc"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91ddd"
+      }
+    ],
+    "stock": 12,
+    "rating": 5,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-06T15:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:32.982Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91de3",
+    "name": "Court Leather Sneakers",
+    "slug": "court-leather-sneakers",
+    "description": "Low leather sneakers with a cupsole and a padded collar. They take a week to soften, then they stay on.",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "shoes",
+    "material": "Full-grain leather",
+    "sku": "SHB1007",
+    "images": [
+      "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1460353581641-37baddab0fa2?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 4499,
+    "discount": 10,
+    "price": 4049,
+    "sizes": [
+      "7",
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac628fc66c6019912b91de4"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91de5"
+      }
+    ],
+    "stock": 20,
+    "rating": 4,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-06T05:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:32.991Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91de7",
+    "name": "Automatic Dress Watch",
+    "slug": "automatic-dress-watch",
+    "description": "A 40 mm automatic with a sunray dial, sapphire glass, and a steel bracelet that sits flat on the wrist.",
+    "brand": "ZAYVORN Time",
+    "category": "men",
+    "subcategory": "watches",
+    "material": "Stainless steel",
+    "sku": "SHB1008",
+    "images": [
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 8999,
+    "discount": 15,
+    "price": 7649,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#C5C7C4",
+        "_id": "6ac628fc66c6019912b91de8"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C6A15B",
+        "_id": "6ac628fc66c6019912b91de9"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91dea"
+      }
+    ],
+    "stock": 8,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": true,
+    "createdAt": "2026-10-06T00:11:56.742Z",
+    "updatedAt": "2026-10-09T08:42:19.813Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91deb",
+    "name": "Market Canvas Tote",
+    "slug": "market-canvas-tote",
+    "description": "A structured tote in waxed canvas with a laptop sleeve and leather handles that will darken with use.",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "bags",
+    "material": "Waxed canvas",
+    "sku": "SHB1009",
+    "images": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1999,
+    "discount": 0,
+    "price": 1999,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91dec"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91ded"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91dee"
+      }
+    ],
+    "stock": 22,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-05T19:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.000Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91def",
+    "name": "Acetate Round Sunglasses",
+    "slug": "acetate-round-sunglasses",
+    "description": "Round acetate frames with UV400 lenses. Light enough to forget, sturdy enough for a bag.",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "sunglasses",
+    "material": "Acetate",
+    "sku": "SHB1010",
+    "images": [
+      "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1799,
+    "discount": 40,
+    "price": 1079,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91df0"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91df1"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91df2"
+      }
+    ],
+    "stock": 30,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-05T14:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.005Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91df3",
+    "name": "Tan Leather Belt",
+    "slug": "tan-leather-belt",
+    "description": "A 3.2 cm leather belt with a brushed buckle. The strap is unlined so it bends with the trouser loops.",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "belts",
+    "material": "Vegetable-tanned leather",
+    "sku": "SHB1011",
+    "images": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1499,
+    "discount": 10,
+    "price": 1349,
+    "sizes": [
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "colors": [
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91df4"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91df5"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91df6"
+      }
+    ],
+    "stock": 26,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-05T09:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.010Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91df7",
+    "name": "Slim Card Wallet",
+    "slug": "slim-card-wallet",
+    "description": "Four card slots and a centre pocket, thin enough for a front pocket. Edges are painted and burnished.",
+    "brand": "ZAYVORN",
+    "category": "men",
+    "subcategory": "wallets",
+    "material": "Leather",
+    "sku": "SHB1012",
+    "images": [
+      "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1299,
+    "discount": 0,
+    "price": 1299,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91df8"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91df9"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91dfa"
+      }
+    ],
+    "stock": 34,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-05T04:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.014Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91dfb",
+    "name": "Satin Column Dress",
+    "slug": "satin-column-dress",
+    "description": "A bias column dress with a cowl neck and a slip lining. It skims rather than clings, and it packs flat.",
+    "brand": "ZAYVORN Atelier",
+    "category": "women",
+    "subcategory": "dresses",
+    "material": "Satin viscose",
+    "sku": "SHB1013",
+    "images": [
+      "https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&fit=crop&w=1100&q=80",
+      "https://images.unsplash.com/photo-1539008835657-9e8e9680c956?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 4999,
+    "discount": 25,
+    "price": 3749,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91dfc"
+      },
+      {
+        "name": "Rust",
+        "hex": "#8C3B2A",
+        "_id": "6ac628fc66c6019912b91dfd"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91dfe"
+      }
+    ],
+    "stock": 14,
+    "rating": 4.5,
+    "numReviews": 2,
+    "featured": true,
+    "createdAt": "2026-10-04T23:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.019Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e01",
+    "name": "Poplin Camp Shirt",
+    "slug": "poplin-camp-shirt",
+    "description": "A relaxed camp shirt in crisp poplin with a chest pocket. Wear it open over a slip or buttoned on its own.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "tops",
+    "material": "Cotton poplin",
+    "sku": "SHB1014",
+    "images": [
+      "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1899,
+    "discount": 20,
+    "price": 1519,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac628fc66c6019912b91e02"
+      },
+      {
+        "name": "Sky",
+        "hex": "#8FB4C9",
+        "_id": "6ac628fc66c6019912b91e03"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e04"
+      }
+    ],
+    "stock": 27,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-04T18:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.021Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e05",
+    "name": "Embroidered Kurta Set",
+    "slug": "embroidered-kurta-set",
+    "description": "A straight kurta with tonal embroidery, paired with straight trousers. The cotton is breathable enough for a long lunch.",
+    "brand": "ZAYVORN Atelier",
+    "category": "women",
+    "subcategory": "kurtas",
+    "material": "Cotton",
+    "sku": "SHB1015",
+    "images": [
+      "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 4299,
+    "discount": 30,
+    "price": 3009,
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e06"
+      },
+      {
+        "name": "Blush",
+        "hex": "#E7C3C0",
+        "_id": "6ac628fc66c6019912b91e07"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e08"
+      }
+    ],
+    "stock": 15,
+    "rating": 5,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-04T13:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.024Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e0a",
+    "name": "Handloom Cotton Saree",
+    "slug": "handloom-cotton-saree",
+    "description": "A 5.5 metre handloom cotton saree with a narrow border and a blouse piece. It softens after the first wash.",
+    "brand": "ZAYVORN Atelier",
+    "category": "women",
+    "subcategory": "sarees",
+    "material": "Handloom cotton",
+    "sku": "SHB1016",
+    "images": [
+      "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 6499,
+    "discount": 20,
+    "price": 5199,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Rust",
+        "hex": "#8C3B2A",
+        "_id": "6ac628fc66c6019912b91e0b"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e0c"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e0d"
+      }
+    ],
+    "stock": 8,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": true,
+    "createdAt": "2026-10-04T08:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.026Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e0e",
+    "name": "High Rise Straight Jeans",
+    "slug": "high-rise-straight-jeans",
+    "description": "High-rise straight jeans with a clean hem and enough stretch to sit through a workday.",
+    "brand": "ZAYVORN Denim",
+    "category": "women",
+    "subcategory": "jeans",
+    "material": "Organic stretch denim",
+    "sku": "SHB1017",
+    "images": [
+      "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 2999,
+    "discount": 15,
+    "price": 2549,
+    "sizes": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34"
+    ],
+    "colors": [
+      {
+        "name": "Indigo",
+        "hex": "#2C3E6B",
+        "_id": "6ac628fc66c6019912b91e0f"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e10"
+      }
+    ],
+    "stock": 21,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-04T03:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.030Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e11",
+    "name": "Pleated Midi Skirt",
+    "slug": "pleated-midi-skirt",
+    "description": "A midi skirt with pressed pleats and a side zip. The twill holds the shape without adding bulk.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "skirts",
+    "material": "Viscose twill",
+    "sku": "SHB1018",
+    "images": [
+      "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 2499,
+    "discount": 10,
+    "price": 2249,
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e12"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e13"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e14"
+      }
+    ],
+    "stock": 17,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-03T22:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.033Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e15",
+    "name": "Soft Leather Loafers",
+    "slug": "soft-leather-loafers",
+    "description": "A low loafer with a leather sock liner and a stacked heel of about 2 cm. Made for walking, not just the photo.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "shoes",
+    "material": "Leather",
+    "sku": "SHB1019",
+    "images": [
+      "https://images.unsplash.com/photo-1535043934128-cf0b28d52f95?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 3999,
+    "discount": 20,
+    "price": 3199,
+    "sizes": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e16"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91e17"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e18"
+      }
+    ],
+    "stock": 12,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-03T17:11:56.742Z",
+    "updatedAt": "2026-10-09T06:28:01.688Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e19",
+    "name": "Block Heel Sandal",
+    "slug": "block-heel-sandal",
+    "description": "An open sandal on a 6 cm block heel with a cushioned footbed and an adjustable ankle strap.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "heels",
+    "material": "Leather",
+    "sku": "SHB1020",
+    "images": [
+      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 3499,
+    "discount": 30,
+    "price": 2449,
+    "sizes": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e1a"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91e1b"
+      },
+      {
+        "name": "Blush",
+        "hex": "#E7C3C0",
+        "_id": "6ac628fc66c6019912b91e1c"
+      }
+    ],
+    "stock": 11,
+    "rating": 4,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-03T12:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.042Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e1e",
+    "name": "Gold Mesh Watch",
+    "slug": "gold-mesh-watch",
+    "description": "A slim 28 mm watch on a fine mesh bracelet. Mineral glass, quartz movement, and a clasp that closes flush.",
+    "brand": "ZAYVORN Time",
+    "category": "women",
+    "subcategory": "watches",
+    "material": "Stainless steel",
+    "sku": "SHB1021",
+    "images": [
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 5499,
+    "discount": 10,
+    "price": 4949,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#C6A15B",
+        "_id": "6ac628fc66c6019912b91e1f"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C5C7C4",
+        "_id": "6ac628fc66c6019912b91e20"
+      }
+    ],
+    "stock": 10,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-03T07:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.046Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e21",
+    "name": "Pearl Stud Earrings",
+    "slug": "pearl-stud-earrings",
+    "description": "7 mm freshwater pearls on sterling posts with a gold-tone finish. They sit close to the ear.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "jewelry",
+    "material": "Freshwater pearl, sterling posts",
+    "sku": "SHB1022",
+    "images": [
+      "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1999,
+    "discount": 0,
+    "price": 1999,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e22"
+      },
+      {
+        "name": "Gold",
+        "hex": "#C6A15B",
+        "_id": "6ac628fc66c6019912b91e23"
+      }
+    ],
+    "stock": 40,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-03T02:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.051Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e24",
+    "name": "Structured Shoulder Bag",
+    "slug": "structured-shoulder-bag",
+    "description": "A compact shoulder bag with a top zip, an interior pocket, and a strap that can be shortened for the hand.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "handbags",
+    "material": "Leather",
+    "sku": "SHB1023",
+    "images": [
+      "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 4599,
+    "discount": 25,
+    "price": 3449,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e25"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91e26"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e27"
+      }
+    ],
+    "stock": 8,
+    "rating": 5,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-02T21:11:56.742Z",
+    "updatedAt": "2026-10-09T06:28:01.694Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e29",
+    "name": "Cat-eye Sunglasses",
+    "slug": "cat-eye-sunglasses",
+    "description": "A slight cat-eye in polished acetate with grey-green UV400 lenses. The temples do not pinch.",
+    "brand": "ZAYVORN",
+    "category": "women",
+    "subcategory": "sunglasses",
+    "material": "Acetate",
+    "sku": "SHB1024",
+    "images": [
+      "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1899,
+    "discount": 35,
+    "price": 1234,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e2a"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e2b"
+      },
+      {
+        "name": "Blush",
+        "hex": "#E7C3C0",
+        "_id": "6ac628fc66c6019912b91e2c"
+      }
+    ],
+    "stock": 23,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-02T16:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.062Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e2d",
+    "name": "Boys Stripe Shirt",
+    "slug": "boys-stripe-shirt",
+    "description": "A cotton shirt with a soft collar and buttons that are sewn to stay. Washed once so it is not cardboard-stiff.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "boys-clothing",
+    "material": "Cotton",
+    "sku": "SHB1025",
+    "images": [
+      "https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1299,
+    "discount": 20,
+    "price": 1039,
+    "sizes": [
+      "3-4Y",
+      "5-6Y",
+      "7-8Y",
+      "9-10Y"
+    ],
+    "colors": [
+      {
+        "name": "Sky",
+        "hex": "#8FB4C9",
+        "_id": "6ac628fc66c6019912b91e2e"
+      },
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac628fc66c6019912b91e2f"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac628fc66c6019912b91e30"
+      }
+    ],
+    "stock": 24,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-02T11:11:56.742Z",
+    "updatedAt": "2026-10-08T04:54:08.134Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e31",
+    "name": "Girls Tulip Dress",
+    "slug": "girls-tulip-dress",
+    "description": "A tulip-hem dress in cotton poplin with a lined bodice. It has pockets, because pockets matter.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "girls-clothing",
+    "material": "Cotton poplin",
+    "sku": "SHB1026",
+    "images": [
+      "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1599,
+    "discount": 25,
+    "price": 1199,
+    "sizes": [
+      "2-3Y",
+      "4-5Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "colors": [
+      {
+        "name": "Blush",
+        "hex": "#E7C3C0",
+        "_id": "6ac628fc66c6019912b91e32"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e33"
+      },
+      {
+        "name": "Sky",
+        "hex": "#8FB4C9",
+        "_id": "6ac628fc66c6019912b91e34"
+      }
+    ],
+    "stock": 19,
+    "rating": 5,
+    "numReviews": 1,
+    "featured": true,
+    "createdAt": "2026-10-02T06:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.070Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e36",
+    "name": "Infant Romper Set",
+    "slug": "infant-romper-set",
+    "description": "Two envelope-neck rompers in organic cotton with snap closures that open flat for changes.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "infants",
+    "material": "Organic cotton",
+    "sku": "SHB1027",
+    "images": [
+      "https://images.unsplash.com/photo-1522771930-78848d9293e8?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 999,
+    "discount": 15,
+    "price": 849,
+    "sizes": [
+      "0-3M",
+      "3-6M",
+      "6-12M"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e37"
+      },
+      {
+        "name": "Sky",
+        "hex": "#8FB4C9",
+        "_id": "6ac628fc66c6019912b91e38"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e39"
+      }
+    ],
+    "stock": 32,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-02T01:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.074Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e3a",
+    "name": "Kids Velcro Sneakers",
+    "slug": "kids-velcro-sneakers",
+    "description": "Canvas sneakers with a wide velcro strap and a rubber toe cap. The insole comes out for drying.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "shoes",
+    "material": "Canvas and rubber",
+    "sku": "SHB1028",
+    "images": [
+      "https://images.unsplash.com/photo-1514989940723-e8e51635b782?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1799,
+    "discount": 20,
+    "price": 1439,
+    "sizes": [
+      "8C",
+      "9C",
+      "10C",
+      "11C",
+      "12C"
+    ],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F1EA",
+        "_id": "6ac628fc66c6019912b91e3b"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac628fc66c6019912b91e3c"
+      },
+      {
+        "name": "Red",
+        "hex": "#9F2D2D",
+        "_id": "6ac628fc66c6019912b91e3d"
+      }
+    ],
+    "stock": 17,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-01T20:11:56.742Z",
+    "updatedAt": "2026-10-08T04:54:08.143Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e3e",
+    "name": "Wooden Block Town",
+    "slug": "wooden-block-town",
+    "description": "Thirty-two smooth beech blocks in a cotton drawstring bag. Edges are rounded and the finish is water-based.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "toys",
+    "material": "Beech wood",
+    "sku": "SHB1029",
+    "images": [
+      "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1499,
+    "discount": 0,
+    "price": 1499,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e3f"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91e40"
+      }
+    ],
+    "stock": 14,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-01T15:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.084Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e41",
+    "name": "Kids Sun Cap",
+    "slug": "kids-sun-cap",
+    "description": "A cotton cap with a soft brim and an adjustable back. The underside of the brim is a darker cloth to cut glare.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "accessories",
+    "material": "Cotton twill",
+    "sku": "SHB1030",
+    "images": [
+      "https://images.unsplash.com/photo-1521369909029-2afed882baee?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 699,
+    "discount": 10,
+    "price": 629,
+    "sizes": [
+      "S",
+      "M"
+    ],
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac628fc66c6019912b91e42"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e43"
+      },
+      {
+        "name": "Red",
+        "hex": "#9F2D2D",
+        "_id": "6ac628fc66c6019912b91e44"
+      }
+    ],
+    "stock": 36,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-01T10:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.087Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e45",
+    "name": "Kids Strap Watch",
+    "slug": "kids-strap-watch",
+    "description": "A light analogue watch on a silicone strap with a pinch buckle. Water resistant enough for handwashing, not for the pool.",
+    "brand": "ZAYVORN Kids",
+    "category": "kids",
+    "subcategory": "watches",
+    "material": "Silicone and resin",
+    "sku": "SHB1031",
+    "images": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1299,
+    "discount": 51,
+    "price": 637,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Navy",
+        "hex": "#1E3A5F",
+        "_id": "6ac88bd88093d00e7ba173b7"
+      },
+      {
+        "name": "Red",
+        "hex": "#9F2D2D",
+        "_id": "6ac88bd88093d00e7ba173b8"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac88bd88093d00e7ba173b9"
+      }
+    ],
+    "stock": 19,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-10-01T05:11:56.742Z",
+    "updatedAt": "2026-10-09T06:38:16.352Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e49",
+    "name": "Steel Field Watch",
+    "slug": "steel-field-watch",
+    "description": "A 38 mm field watch with a clear dial, luminous hands, and a steel bracelet you can also swap for a strap.",
+    "brand": "ZAYVORN Time",
+    "category": "accessories",
+    "subcategory": "watches",
+    "material": "Stainless steel",
+    "sku": "SHB1032",
+    "images": [
+      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 4299,
+    "discount": 20,
+    "price": 3439,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Silver",
+        "hex": "#C5C7C4",
+        "_id": "6ac628fc66c6019912b91e4a"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e4b"
+      }
+    ],
+    "stock": 11,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": true,
+    "createdAt": "2026-10-01T00:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.094Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e4c",
+    "name": "Weekender Duffel",
+    "slug": "weekender-duffel",
+    "description": "A 35 litre duffel with leather handles, a detachable shoulder strap, and a wet pocket under the lid.",
+    "brand": "ZAYVORN",
+    "category": "accessories",
+    "subcategory": "bags",
+    "material": "Canvas and leather",
+    "sku": "SHB1033",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 4999,
+    "discount": 30,
+    "price": 3499,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e4d"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e4e"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e4f"
+      }
+    ],
+    "stock": 7,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-09-30T19:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.096Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e50",
+    "name": "Bifold Wallet",
+    "slug": "bifold-wallet",
+    "description": "A bifold with six card slots, two slip pockets and a note compartment. It breaks in within a fortnight.",
+    "brand": "ZAYVORN",
+    "category": "accessories",
+    "subcategory": "wallets",
+    "material": "Leather",
+    "sku": "SHB1034",
+    "images": [
+      "https://images.unsplash.com/photo-1612902456551-333ac5afa26e?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1699,
+    "discount": 0,
+    "price": 1699,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e51"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e52"
+      },
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91e53"
+      }
+    ],
+    "stock": 29,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-09-30T14:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.099Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e54",
+    "name": "Braided Belt",
+    "slug": "braided-belt",
+    "description": "A braided leather belt with a sliding buckle, so the fit is not limited to punched holes.",
+    "brand": "ZAYVORN",
+    "category": "accessories",
+    "subcategory": "belts",
+    "material": "Leather",
+    "sku": "SHB1035",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 1599,
+    "discount": 10,
+    "price": 1439,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      {
+        "name": "Tan",
+        "hex": "#C4A574",
+        "_id": "6ac628fc66c6019912b91e55"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e56"
+      },
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e57"
+      }
+    ],
+    "stock": 16,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-09-30T09:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.102Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e58",
+    "name": "Wayfarer Sunglasses",
+    "slug": "wayfarer-sunglasses",
+    "description": "A classic full-frame sunglass with polarised UV400 lenses and spring hinges that do not snap shut.",
+    "brand": "ZAYVORN",
+    "category": "accessories",
+    "subcategory": "sunglasses",
+    "material": "Acetate",
+    "sku": "SHB1036",
+    "images": [
+      "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 2199,
+    "discount": 40,
+    "price": 1319,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e59"
+      },
+      {
+        "name": "Brown",
+        "hex": "#6B4A32",
+        "_id": "6ac628fc66c6019912b91e5a"
+      }
+    ],
+    "stock": 27,
+    "rating": 5,
+    "numReviews": 1,
+    "featured": false,
+    "createdAt": "2026-09-30T04:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.106Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e5c",
+    "name": "Chain Bracelet",
+    "slug": "chain-bracelet",
+    "description": "A fine curb chain with a lobster clasp. The steel is plated and sealed so it does not turn the wrist green.",
+    "brand": "ZAYVORN",
+    "category": "accessories",
+    "subcategory": "jewelry",
+    "material": "Stainless steel",
+    "sku": "SHB1037",
+    "images": [
+      "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 2499,
+    "discount": 15,
+    "price": 2124,
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "colors": [
+      {
+        "name": "Gold",
+        "hex": "#C6A15B",
+        "_id": "6ac628fc66c6019912b91e5d"
+      },
+      {
+        "name": "Silver",
+        "hex": "#C5C7C4",
+        "_id": "6ac628fc66c6019912b91e5e"
+      }
+    ],
+    "stock": 22,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-09-29T23:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.110Z",
+    "reviews": []
+  },
+  {
+    "_id": "6ac628fc66c6019912b91e5f",
+    "name": "Washed Cotton Cap",
+    "slug": "washed-cotton-cap",
+    "description": "A six-panel cap in washed cotton with a metal clasp. The brim is already curved, not a stiff board.",
+    "brand": "ZAYVORN",
+    "category": "accessories",
+    "subcategory": "caps",
+    "material": "Washed cotton",
+    "sku": "SHB1038",
+    "images": [
+      "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=1100&q=80"
+    ],
+    "mrp": 899,
+    "discount": 0,
+    "price": 899,
+    "sizes": [
+      "One Size"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#1C1916",
+        "_id": "6ac628fc66c6019912b91e60"
+      },
+      {
+        "name": "Olive",
+        "hex": "#5C6848",
+        "_id": "6ac628fc66c6019912b91e61"
+      },
+      {
+        "name": "Ivory",
+        "hex": "#E7E0D4",
+        "_id": "6ac628fc66c6019912b91e62"
+      }
+    ],
+    "stock": 4,
+    "rating": 0,
+    "numReviews": 0,
+    "featured": false,
+    "createdAt": "2026-09-29T18:11:56.742Z",
+    "updatedAt": "2026-10-07T11:20:33.112Z",
+    "reviews": []
+  }
+]

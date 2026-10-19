@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useOutletContext, useSearchParams } from 'react-router-dom';
-import api from '../api';
+import { queryCatalog } from '../catalog';
 import ProductCard from '../components/ProductCard';
 
 const SORTS = [
@@ -14,9 +14,6 @@ const SORTS = [
 export default function Shop() {
   const { categories = [] } = useOutletContext();
   const [params, setParams] = useSearchParams();
-  const [data, setData] = useState({ products: [], total: 0, page: 1, pages: 1 });
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState('');
   const [min, setMin] = useState(params.get('min') || '');
   const [max, setMax] = useState(params.get('max') || '');
 
@@ -32,32 +29,16 @@ export default function Shop() {
     document.title = `${title} — ZAYVORN`;
   }, [activeCategory, q]);
 
-  useEffect(() => {
-    const controller = new AbortController();
-    setLoading(true);
-    setError('');
-    api
-      .get('/products', {
-        signal: controller.signal,
-        params: {
-          category: category || undefined,
-          subcategory: sub || undefined,
-          q: q || undefined,
-          sort,
-          page,
-          minPrice: params.get('min') || undefined,
-          maxPrice: params.get('max') || undefined,
-          limit: 40,
-        },
-      })
-      .then((res) => setData(res.data))
-      .catch((err) => {
-        if (err.code === 'ERR_CANCELED') return;
-        setError('Could not load products.');
-      })
-      .finally(() => setLoading(false));
-    return () => controller.abort();
-  }, [category, sub, q, sort, page, params]);
+  const data = queryCatalog({
+    category,
+    subcategory: sub,
+    q,
+    sort,
+    page,
+    minPrice: params.get('min') || '',
+    maxPrice: params.get('max') || '',
+    limit: 40,
+  });
 
   const patch = (next) => {
     const updated = new URLSearchParams(params);
@@ -146,9 +127,7 @@ export default function Shop() {
             </select>
           </label>
         </div>
-        {error && <p className="error">{error}</p>}
-        {loading && <p className="note">Loading pieces…</p>}
-        {!loading && data.products.length === 0 && (
+        {data.products.length === 0 && (
           <div className="empty">
             <h2>Nothing in this edit yet</h2>
             <p className="muted">Try another category, or clear the filters.</p>

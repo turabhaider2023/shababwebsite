@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link, useOutletContext } from 'react-router-dom';
-import api from '../api';
+import { queryCatalog } from '../catalog';
 import ProductCard from '../components/ProductCard';
 
 const HERO = 'https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=1600&q=80';
@@ -8,21 +8,13 @@ const PROMO = 'https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?auto
 
 export default function Home() {
   const { categories = [] } = useOutletContext();
-  const [featured, setFeatured] = useState([]);
-  const [deals, setDeals] = useState([]);
-  const [error, setError] = useState('');
+  const [featured] = useState(() => queryCatalog({ featured: true, limit: 8 }).products);
+  const [deals] = useState(() =>
+    queryCatalog({ sort: 'discount', limit: 8 }).products.filter((product) => product.discount > 0).slice(0, 4)
+  );
 
   useEffect(() => {
     document.title = 'ZAYVORN — Contemporary fashion';
-    Promise.all([
-      api.get('/products', { params: { featured: 'true', limit: 8 } }),
-      api.get('/products', { params: { sort: 'discount', limit: 8 } }),
-    ])
-      .then(([featuredRes, dealRes]) => {
-        setFeatured(featuredRes.data.products);
-        setDeals(dealRes.data.products.filter((product) => product.discount > 0).slice(0, 4));
-      })
-      .catch(() => setError('The shop is not reachable. Start the backend, then refresh this page.'));
   }, []);
 
   return (
@@ -74,7 +66,6 @@ export default function Home() {
           </div>
           <Link to="/shop">View all</Link>
         </div>
-        {error && <p className="error">{error}</p>}
         <div className="products">
           {featured.map((product) => (
             <ProductCard key={product._id} product={product} />
